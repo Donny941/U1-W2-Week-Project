@@ -1,0 +1,135 @@
+/* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+/* HEADER */
+.logo {
+  background-color: #222f3f;
+  padding: 0.8rem;
+}
+.logo img {
+  width: 130px;
+  margin-left: 1rem;
+}
+nav {
+  background: linear-gradient(0deg, rgba(54, 71, 90, 1) 0%, rgba(69, 78, 99, 1) 100%);
+  padding: 0.5rem;
+}
+nav ul li {
+  display: inline-block;
+  color: white;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+/* MAIN */
+main {
+  padding: 2rem;
+}
+/* BANNERS */
+.gift {
+  background-color: #f56600;
+  padding: 0.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.gift p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.banner {
+  background-image: url(../images/bg-image.png);
+  height: 150px;
+  background-size: contain;
+  background-position: 18rem;
+  text-align: center;
+}
+.CTA {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  margin-top: 2.8rem;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.banners .banner p {
+  color: white;
+  font-weight: 600;
+}
+/* PRODUCTS */
+.products {
+  background-color: white;
+  padding: 1rem;
+  height: 400px;
+  margin-top: 2rem;
+}
+.products img {
+  height: 350px;
+  border-radius: 12px 15px;
+  box-shadow: 1px 6px 8px #c1c1c1;
+}
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+.products h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.products h2 a {
+  color: #106778;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 0.7rem;
+}
+/* SHOP */
+.shop {
+  margin-top: 2rem;
+  text-align: center;
+}
+.shop .vr img {
+  width: 100%;
+}
+.shop .audio img {
+  width: 100%;
+}
+.shop .audio {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+.shop p {
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+.shop p a {
+  color: #106778;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 0.7rem;
+}
+/* FOOTER */
+.totop {
+  text-align: center;
+  background-color: #364759;
+  padding: 1rem;
+}
+.totop a {
+  color: white;
+  font-weight: 600;
+}
+.foot {
+  text-align: center;
+  padding: 3.5rem;
+  background-color: #222f3f;
+}
+.foot img {
+  width: 160px;
+}
