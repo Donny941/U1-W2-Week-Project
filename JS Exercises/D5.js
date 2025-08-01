@@ -75,7 +75,7 @@ const cars = [
 
 for (let i = 0; i < cars.length; i++) {
   const car = cars[i];
-  let randomPlate = `AB${Math.floor(Math.random() * 1000)}CD`;
+  let randomPlate = `AB-${Math.floor(Math.random() * 1000)}CD`;
   car.LicensePlate = randomPlate;
 }
 console.log(cars);
